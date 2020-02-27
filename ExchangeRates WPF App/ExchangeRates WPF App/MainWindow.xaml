@@ -1,0 +1,41 @@
+﻿<Window x:Class="ExchangeRates_WPF_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExchangeRates_WPF_App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="497" Width="800">
+    <Grid Margin="0,0,10,0" Height="475">
+        <Label x:Name="KodLabel" Content="WALUTA:" HorizontalAlignment="Left" Margin="99,29,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="StartDateLabel" Content="DATA POCZĄTKOWA:" HorizontalAlignment="Left" Margin="99,73,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="endDateLabel" Content="DATA KOŃCOWA:" HorizontalAlignment="Left" Margin="99,117,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ComboBox x:Name="currencyTextBox" HorizontalAlignment="Center" Margin="0,38,0,0" VerticalAlignment="Top" Width="120" FontSize="18" SelectedIndex="0">
+            <ComboBoxItem Content="USD"/>
+            <ComboBoxItem Content="EUR"/>
+            <ComboBoxItem Content="CHF"/>
+            <ComboBoxItem Content="GBR"/>
+        </ComboBox>
+        <TextBox x:Name="startDateTextBox" HorizontalAlignment="Left" Margin="335,73,0,0" Text="dd-mm-yyyy" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontSize="20"/>
+        <TextBox x:Name="endDateTextBox" HorizontalAlignment="Left" Margin="335,117,0,0" Text="dd-mm-yyyy" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontSize="20"/>
+        <Button x:Name="startButton" Content="START" HorizontalAlignment="Left" Margin="581,53,0,0" VerticalAlignment="Top" Height="83" Width="102" FontSize="28" Click="startButton_Click"/>
+        <DataGrid x:Name="dataGrid" Margin="41,161,335,31">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Header="Data Notowania" Binding="{Binding Path=DATA_NOTOWANIA}"/>
+                <DataGridCheckBoxColumn Header="Nazwa Kraju" Binding="{Binding Path=NAZWA_KRAJU}"/>
+                <DataGridCheckBoxColumn Header="Waluta" Binding="{Binding Path=WALUTA}"/>
+                <DataGridCheckBoxColumn Header="Kupno" Binding="{Binding Path=KUPNO}"/>
+                <DataGridCheckBoxColumn Header="Sprzedaż" Binding="{Binding Path=SPRZEDAŻ}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="odchyleniekupno" Content="Odchylenie standardowe Kupna:" HorizontalAlignment="Left" Margin="478,189,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="odchylenieSprzedazy" Content="Odchylenie standardowe  Sprzedaży:" HorizontalAlignment="Left" Margin="478,225,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="avBuy" Content="Średnia cena kupna:" HorizontalAlignment="Left" Margin="478,256,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="avSell" Content="Średnia Cena Sprzedaży:" HorizontalAlignment="Left" Margin="478,287,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MinBuy" Content="Minimalna Cena Kupna:" HorizontalAlignment="Left" Margin="482,318,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MaxBuy" Content="Maksymalna Cena Kupna:" HorizontalAlignment="Left" Margin="488,375,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MaxSell" Content="Maksymalna Cena Sprzedaży:" HorizontalAlignment="Left" Margin="478,401,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MinSell" Content="Minimalna Cena Sprzedaży:" HorizontalAlignment="Left" Margin="483,349,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

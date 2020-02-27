@@ -1,0 +1,11 @@
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.exe
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.deps.json
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.runtimeconfig.json
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.runtimeconfig.dev.json
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.dll
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\bin\Debug\netcoreapp3.1\ExchangeRates Console App.pdb
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\obj\Debug\netcoreapp3.1\ExchangeRates Console App.csprojAssemblyReference.cache
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\obj\Debug\netcoreapp3.1\ExchangeRates Console App.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\obj\Debug\netcoreapp3.1\ExchangeRates Console App.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\obj\Debug\netcoreapp3.1\ExchangeRates Console App.dll
+C:\Users\Tomek\Desktop\C#\Exchange Rates\ExchangeRates Console App\ExchangeRates Console App\obj\Debug\netcoreapp3.1\ExchangeRates Console App.pdb
